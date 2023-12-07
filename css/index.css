@@ -1,0 +1,141 @@
+.banner-pic {
+  max-width: 100%;
+  height: auto;
+}
+
+.service-home {
+  text-align: center;
+  padding: 40px 0;
+  background-color: #f5f5f5;
+}
+
+.service-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1f77a4;
+  margin-bottom: 20px;
+}
+
+.tabel-service {
+  display: flex;
+  justify-content: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.serv-home-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.left-content {
+  margin-right: 30px;
+}
+
+.right-content {
+  margin-left: 30px;
+}
+
+.left-content a,
+.right-content a {
+  text-decoration: none;
+}
+
+.service-item {
+  text-align: center;
+  margin: 0 20px;
+  padding: 20px;
+  flex: 1;
+  padding: 20px;
+}
+
+.service-icon {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 15px;
+}
+
+.note-icon {
+  font-size: 18px;
+  font-weight: 600;
+  color: #70cbcf;
+  text-decoration: none;
+  display: block;
+}
+
+.note-icon:hover {
+  color: #1f77a4;
+}
+
+/* CSS untuk tampilan seluler (320px hingga 767px) */
+@media (min-width: 320px) and (max-width: 767px) {
+  .service-title {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  .tabel-service {
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .serv-home-icon {
+    flex-direction: column;
+    margin: 10px 0;
+  }
+
+  .left-content,
+  .right-content {
+    margin: 0;
+  }
+
+  .service-item {
+    text-align: center;
+    margin: 20px 0;
+    padding: 20px;
+    flex: 1;
+    padding: 20px;
+  }
+
+  .service-icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+
+  .note-icon {
+    font-size: 16px;
+  }
+}
+
+/* CSS untuk tampilan tablet (768px hingga 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .service-title {
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+
+  .serv-home-icon {
+    margin: 10px 0;
+  }
+
+  .service-item {
+    text-align: center;
+    margin: 20px 0;
+    padding: 20px;
+    flex: 1;
+    padding: 20px;
+  }
+
+  .service-icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+
+  .note-icon {
+    font-size: 16px;
+  }
+}

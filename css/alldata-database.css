@@ -1,0 +1,82 @@
+.appointment-alldata {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1f77a4;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.appointment-table {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  padding-top: 20px;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.title-table {
+  background-color: #59a8fc;
+  color: white;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table tr:hover {
+  background-color: #ddd;
+}
+
+.table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  font-family: "Fira Sans", sans-serif;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .appointment-alldata {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+
+  .appointment-table {
+    padding: 10px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+  }
+
+  .table td {
+    padding: 5px;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .appointment-alldata {
+    font-size: 28px;
+    margin-top: 30px;
+  }
+
+  .appointment-table {
+    padding: 15px;
+    margin-bottom: 30px;
+    padding-top: 15px;
+  }
+
+  .table td {
+    padding: 7px;
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,96 @@
+/* Start Body About-Web */
+.title-about {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1f77a4;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.about-web-content {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.about-web-application,
+.about-web-facilities {
+  width: 80%;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px #2b8e8e40;
+  margin: 10px 0;
+}
+
+.border-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #70cbcf;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #484848;
+  font-family: "Fira Sans", sans-serif;
+}
+/* End Body About-Web */
+
+/* footer */
+.foot-site {
+  margin-top: 60px;
+}
+
+/* CSS untuk tampilan seluler (320px hingga 767px) */
+@media (min-width: 320px) and (max-width: 767px) {
+  .title-about {
+    font-size: 28px;
+    margin-top: 30px;
+  }
+
+  .about-web-application,
+  .about-web-facilities {
+    width: 90%;
+  }
+
+  .border-title {
+    font-size: 20px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .foot-site {
+    margin-top: 30px;
+  }
+}
+
+/* CSS untuk tampilan tablet (768px hingga 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .title-about {
+    font-size: 32px;
+    margin-top: 30px;
+  }
+
+  .about-web-application,
+  .about-web-facilities {
+    width: 90%;
+  }
+
+  .border-title {
+    font-size: 20px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .foot-site {
+    margin-top: 30px;
+  }
+}

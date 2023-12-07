@@ -1,0 +1,152 @@
+.body-doctor {
+  text-align: center;
+  padding: 20px;
+}
+
+.doctor-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1f77a4;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.doctor-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.doctor-box {
+  width: calc(25% - 20px);
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.doctor-photo {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.doctor-name {
+  font-weight: bold;
+}
+
+.doctor-role {
+  font-style: italic;
+}
+
+.experience {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.doctor-exicon {
+  width: 20px;
+  margin-right: 5px;
+  margin-left: 135px;
+}
+
+#doctor-experience {
+  flex-grow: 1;
+  text-align: left;
+  font-weight: 400;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 14px;
+}
+
+.timetable {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.doctor-timeicon {
+  width: 20px;
+  margin-right: 5px;
+  margin-left: 135px;
+}
+
+#doctor-timetable {
+  flex-grow: 1;
+  text-align: left;
+  font-weight: 400;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 14px;
+}
+
+.body-doctor ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* CSS untuk tampilan seluler (320px hingga 767px) */
+@media (min-width: 320px) and (max-width: 767px) {
+  .doctor-title {
+    font-size: 28px;
+    margin-top: 30px;
+  }
+
+  .doctor-box {
+    width: calc(50% - 20px);
+    margin: 10px 0;
+  }
+
+  .experience,
+  .timetable {
+    margin-top: 5px;
+  }
+
+  .doctor-exicon,
+  .doctor-timeicon {
+    margin-left: 10px;
+  }
+
+  #doctor-experience,
+  #doctor-timetable {
+    margin-left: 10px;
+  }
+}
+
+/* CSS untuk tampilan tablet (768px hingga 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .doctor-title {
+    font-size: 32px;
+    margin-top: 30px;
+  }
+
+  .doctor-box {
+    width: calc(33.33% - 20px);
+    margin: 10px 0;
+  }
+
+  .experience,
+  .timetable {
+    margin-top: 5px;
+  }
+
+  .doctor-exicon,
+  .doctor-timeicon {
+    margin-left: 10px;
+  }
+
+  #doctor-experience,
+  #doctor-timetable {
+    margin-left: 10px;
+  }
+}

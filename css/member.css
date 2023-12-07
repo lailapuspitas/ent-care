@@ -1,0 +1,149 @@
+/* CSS untuk laman member */
+.body-member {
+  text-align: center;
+  padding: 20px;
+}
+
+.member-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1f77a4;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.member-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgba(112, 203, 207, 0.4);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.member-box {
+  width: calc(25% - 20px);
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#member-container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+}
+
+#member-container .member-box {
+  width: calc(25% - 20px);
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.member-photo {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.member-name {
+  font-weight: bold;
+}
+
+.member-role {
+  font-style: italic;
+}
+
+/* CSS untuk laman member pada handphone */
+@media (min-width: 320px) and (max-width: 767px) {
+  .body-member {
+    padding: 10px;
+  }
+
+  .member-title {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+
+  .member-container {
+    padding: 10px;
+  }
+
+  .member-box {
+    width: calc(50% - 10px);
+    margin: 5px;
+  }
+
+  #member-container .member-box {
+    width: calc(50% - 10px);
+    margin: 5px;
+  }
+
+  .member-photo {
+    width: 80%;
+  }
+
+  .member-name {
+    font-weight: normal;
+  }
+
+  .member-role {
+    font-style: normal;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .body-member {
+    padding: 15px;
+  }
+
+  .member-title {
+    font-size: 28px;
+    margin-top: 30px;
+  }
+
+  .member-container {
+    padding: 15px;
+  }
+
+  .member-box {
+    width: calc(33.33% - 15px);
+    margin: 10px;
+  }
+
+  #member-container .member-box {
+    width: calc(33.33% - 15px);
+    margin: 10px;
+  }
+
+  .member-photo {
+    width: 90%;
+  }
+
+  .member-name {
+    font-weight: normal;
+  }
+
+  .member-role {
+    font-style: normal;
+  }
+}

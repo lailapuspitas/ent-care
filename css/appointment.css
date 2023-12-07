@@ -1,0 +1,239 @@
+.title-appointment {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1f77a4;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.appointment-container {
+  width: 600px;
+  margin: 0 auto;
+  border: 1px solid #48484859;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  box-shadow: 0px 12px 16px rgba(0, 0, 0, 0.4);
+}
+
+.appointment-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.appointment-form label {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #484848ea;
+}
+
+.appointment-form input,
+.appointment-form select {
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
+.submit-appointment {
+  height: 40px;
+  width: 100px;
+  margin-top: 20px;
+  align-self: center;
+  background-color: #0078d4;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#error-message {
+  color: red;
+}
+
+.title-appointment-ticket {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1f77a4;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.appointment-ticket-container {
+  width: 600px;
+  margin: 0 auto;
+  border: 1px solid #48484859;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  box-shadow: 0px 12px 16px rgba(0, 0, 0, 0.4);
+}
+
+.appointment-ticket-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.appointment-ticket-form label {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #484848ea;
+}
+
+.appointment-ticket-form .hasil {
+  font-size: 16px;
+  padding: 5px 0;
+  color: #484848;
+}
+
+.note {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 20px;
+  color: #0078d4;
+  text-align: center;
+}
+
+.note-ticket {
+  font-size: 16px;
+  margin-top: 10px;
+  color: #484848;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+/* CSS untuk tampilan seluler (320px hingga 767px) */
+@media (min-width: 320px) and (max-width: 767px) {
+  .title-appointment {
+    font-size: 28px;
+    margin-top: 30px;
+  }
+
+  .appointment-container {
+    width: 90%;
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+
+  .appointment-form label {
+    font-size: 16px;
+  }
+
+  .appointment-form input,
+  .appointment-form select {
+    height: 30px;
+    font-size: 14px;
+  }
+
+  .submit-appointment {
+    height: 35px;
+    width: 90px;
+    margin-top: 15px;
+  }
+
+  .title-appointment-ticket {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+
+  .appointment-ticket-container {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .appointment-ticket-form label {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  .appointment-ticket-form .hasil {
+    font-size: 12px;
+    padding: 2.5px 0;
+  }
+
+  .note {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .note-ticket {
+    font-size: 12px;
+    margin-top: 5px;
+    padding-bottom: 20px;
+  }
+}
+
+/* CSS untuk tampilan tablet (768px hingga 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .title-appointment {
+    font-size: 32px;
+    margin-top: 30px;
+  }
+
+  .appointment-container {
+    width: 90%;
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+
+  .appointment-form label {
+    font-size: 16px;
+  }
+
+  .appointment-form input,
+  .appointment-form select {
+    height: 30px;
+    font-size: 14px;
+  }
+
+  .submit-appointment {
+    height: 35px;
+    width: 90px;
+    margin-top: 15px;
+  }
+  .title-appointment-ticket {
+    font-size: 28px;
+    margin-top: 30px;
+  }
+
+  .appointment-ticket-container {
+    width: calc(100% - 40px);
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+
+  .appointment-ticket-form label {
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 7.5px;
+  }
+
+  .appointment-ticket-form .hasil {
+    font-size: 14px;
+    padding: 3.75px0;
+  }
+
+  .note {
+    font-size: 16px;
+    margin-top: 15px;
+  }
+
+  .note-ticket {
+    font-size: 14px;
+    margin-top: 7.5px;
+    padding-bottom: 30px;
+  }
+}

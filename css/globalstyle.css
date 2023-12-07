@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+body {
+  font-family: "Fira Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+}
+
+/* Start Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  height: 80px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #84b4f6;
+  box-shadow: 0px 4px 8px #1347477c;
+  z-index: 1000;
+}
+
+.nav-logo img {
+  position: absolute;
+  width: 62px;
+  height: 54px;
+  top: 18px;
+  left: 65px;
+}
+
+.nav-kanan {
+  position: absolute;
+  right: 65px;
+}
+
+.nav-kanan a {
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: none;
+  margin-right: 35px;
+  color: #84b4f6;
+}
+
+.nav-kanan a:hover {
+  color: #484848;
+}
+
+.nav-kanan .button {
+  color: #ffffff;
+  background-color: #70cbcf;
+  border-radius: 10px;
+  padding: 10px 15px;
+  border-color: transparent;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.nav-kanan .button:hover {
+  background-color: #1f77a4;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px; /* Sesuaikan lebar dropdown dengan kontennya */
+  z-index: 1;
+  padding: 10px 0;
+  right: 0;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: #70cbcf;
+  padding: 10px 20px; /* Tambahkan padding atas dan bawah yang lebih besar */
+  text-decoration: none;
+  display: block;
+}
+/* End Navbar */
+
+/* StartFooter */
+.foot-site {
+  background-color: rgba(112, 203, 207, 0.3);
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-color: #2b8e8ecc;
+  z-index: 1000;
+  padding: 25px 0;
+}
+
+.foot-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.foot-logo {
+  flex: 1;
+  margin-top: 20px;
+}
+
+.image-foot {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.side-1,
+.side-2,
+.side-3 {
+  flex: 1;
+  text-align: justify;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.head-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #1f77a4;
+}
+
+.neck-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 10px 0;
+  color: #484848;
+}
+
+.side-1 a {
+  text-decoration: none;
+}
+
+.body-foot {
+  font-size: 14px;
+  margin: 5px 0;
+  color: #484848;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.body-foot:hover {
+  color: #1f77a4;
+}
+
+.icon-sosmed {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.icon-sosmed a {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.copy {
+  color: #484848;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 600;
+  padding-top: 110px;
+}
+/* End Footer */
+
+/* CSS untuk tampilan seluler (hp) */
+@media (max-width: 767px) {
+  .navbar {
+    height: 60px;
+  }
+
+  .nav-logo img {
+    width: 50px;
+    height: 45px;
+    top: 12px;
+    left: 15px;
+  }
+
+  .nav-kanan {
+    right: 15px;
+  }
+
+  .nav-kanan a {
+    font-size: 16px;
+    margin-right: 20px;
+  }
+
+  .dropdown-content {
+    min-width: 160px;
+  }
+
+  .dropdown-content a {
+    padding: 8px 16px;
+  }
+
+  .foot-site {
+    padding: 15px 0;
+  }
+
+  .head-title {
+    font-size: 18px;
+  }
+
+  .neck-title {
+    font-size: 14px;
+    margin: 8px 0;
+  }
+
+  .body-foot {
+    font-size: 14px;
+  }
+
+  .icon-sosmed a {
+    font-size: 16px;
+  }
+}
+
+/* CSS untuk tampilan tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .navbar {
+    height: 70px;
+  }
+
+  .nav-logo img {
+    width: 55px;
+    height: 50px;
+    top: 15px;
+    left: 25px;
+  }
+
+  .nav-kanan {
+    right: 25px;
+  }
+
+  .nav-kanan a {
+    font-size: 16px;
+    margin-right: 25px;
+  }
+
+  .dropdown-content {
+    min-width: 180px;
+  }
+
+  .dropdown-content a {
+    padding: 10px 20px;
+  }
+
+  .foot-site {
+    padding: 20px 0;
+  }
+
+  .head-title {
+    font-size: 18px;
+  }
+
+  .neck-title {
+    font-size: 14px;
+    margin: 8px 0;
+  }
+
+  .body-foot {
+    font-size: 14px;
+  }
+
+  .icon-sosmed a {
+    font-size: 16px;
+  }
+}
